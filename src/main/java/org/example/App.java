@@ -46,7 +46,10 @@ public class App {
                 wiseSayingController.actionModify(sc, modifyId);
             }
 
-
+            // 빌드
+            else if (cmd.equals("빌드")) {
+                wiseSayingController.actionBuild();
+            }
         }
     }
 }

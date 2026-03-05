@@ -25,4 +25,8 @@ public class WiseSayingService {
     public WiseSaying getOldWiseSaying(int id) {
         return wiseSayingRepository.getWiseSaying(id);
     }
+
+    public void build() {
+        wiseSayingRepository.dataBuild();
+    }
 }
